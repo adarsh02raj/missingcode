@@ -1,8 +1,85 @@
 body{
-    background-color: #414141;
+    background-color: brown;
+}
+#container{
+    width: 650px;
+    height: 550px;
+    text-align: center;
+    background: white;
+    overflow-y: auto;
+    color: black;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.Heading{
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#lists{
+    margin: 50px;
+    padding-left: 0;
+}
+.checklists{
+    list-style: none;
+    border: 2px solid black;
+    width: 80%;
+    /* opacity: 0; */
+    height: 40px;
+    margin: 5px auto;
+    /* top right bottom left */
+    text-align: left;
+}
+#container ul li label{
+    margin: 0  auto;
+    vertical-align: middle;
+    line-height: 40px;
+    height: 100%;
+    font-size: 18px;
+}
+
+#container ul li label #checks{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    position: absolute;
+    outline: 0;
+}
+#container ul li input[type="checkbox"]:checked+label{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, .3);
+}
+#container .containers{
+    width: 60%;
+    margin: auto;
+}
+
+#container .containers #input{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border:  2px solid rgb(121, 46, 46);
+    border-radius: 10px;
+}
+
+#container .containers #input:focus{
+    outline: 0;
+}
+
+#container .containers button{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
     color: white;
 }
-.container{
-    margin-left: 180px;
-    margin-top: 125px;
-}
+
+
+
+
