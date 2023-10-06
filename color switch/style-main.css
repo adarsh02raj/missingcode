@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+#gray{
+    background-color: gray;
+    color: white;
+}
+#Black{
+    background-color: black;
+    color: white;
+}
+#Blue{
+    background-color: Blue;
+    color: white;
+}
+#Purple{
+    background-color: purple;
+    color: white;
+}
